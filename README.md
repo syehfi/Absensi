@@ -1,1 +1,2 @@
 # Absensi
+Semoga Sukses :)
