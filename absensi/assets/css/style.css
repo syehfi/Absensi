@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: #308aad;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.top-header {
+    background-color: #0000006b;
+    width: 800px;
+    margin: 80px auto 40px auto;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.57);
+}
+
+/* left side */
+.left {
+    margin: 10px;
+    width: 380px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.left select {
+    background: whitesmoke;
+    color: black;
+    padding: 6px;
+    width: 300px;
+    margin-left: 10px;
+    border: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.57);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+/* right side */
+.right {
+    margin: 10px;
+    width: 380px;
+    float: right;
+    display: flex;
+    flex-direction: column
+}
+
+.right select {
+    background: whitesmoke;
+    color: black;
+    padding: 6px;
+    width: 300px;
+    margin-left: 10px;
+    border: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.57);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.btn {
+    float: right;
+    margin-right: 80px;
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    background: whitesmoke;
+    -webkit-appearance: button;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.57);
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 25px rgba(70, 70, 70, 0.644);
+}
+
+.footer {
+    clear: both;
+}
